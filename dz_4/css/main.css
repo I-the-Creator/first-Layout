@@ -431,6 +431,7 @@ margin-left: 74px;
     .contacts-repeat {
         margin-top: 100px; 
     }
+}
 
 @media screen and (max-width: 992px) {
     .container {
@@ -554,7 +555,7 @@ margin-left: 74px;
     
     .destinations-content {
     padding:35px 20px 25px;
-}
+    }
     .btn-routes {
         margin: 15px auto 0;
         width: 100%;
