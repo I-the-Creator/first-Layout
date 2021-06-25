@@ -1,0 +1,9 @@
+ul.menu-clicked {
+    list-style: none;
+}
+li.red a {          /* для всех a внутри li с классом red */
+    color: red;
+    font-size: 20px;
+    background: blue;
+    color: #fff;
+}
