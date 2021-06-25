@@ -16,8 +16,8 @@
 function doMagic() {
     var btn = document.querySelector('.btn');   //  обращение по классу или другому селектору
     btn.onclick = function () {
-        let ul = document.querySelector('ul');
-        ul.classList.toggle('menu-clicked');
+        //let ul = document.querySelector('ul');
+        document.querySelector('ul').classList.toggle('menu-clicked'); // вызов без объявления переенной
         var lis = document.querySelectorAll('.menu li'); // обращение ко всем li внутри  класса 'menu' и создание массива из них
         for(let i = 0; i < lis.length; i++) {
         // lis[i].classList.add('red');   //  чтение классов(стандартный метод) у каждого ли и добавление нового класса
